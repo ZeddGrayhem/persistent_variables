@@ -1,11 +1,19 @@
 {
   "name": "jsonstorage",
   "version": "1.0.0",
-  "description": "",
+  "description": "> Temp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Zeddgrayhem",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeddGrayhem/persistent_variables.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZeddGrayhem/persistent_variables/issues"
+  },
+  "homepage": "https://github.com/ZeddGrayhem/persistent_variables#readme"
 }

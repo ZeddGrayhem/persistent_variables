@@ -1,6 +1,8 @@
 const fs = require('fs');
 
 module.exports = (settings = {location: './storage'}) => {
+    if(!fs.existsSync(location)) fs.mkdir(location)
+
     class Storage {
         constructor(name, data) {
             this.name = name
